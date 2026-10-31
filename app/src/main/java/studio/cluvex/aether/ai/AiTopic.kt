@@ -87,6 +87,9 @@ enum class AiTopic(
         "Reopens this app's bundled version announcements. These are release notes, not real-time network status or security advice from a remote server."),
     ABOUT("about", "About Aether and credits",
         "Shows version, core/build provenance, signature information and source links. Cluvex Studio develops the engine; QW-AI-Code develops this Android UI and its UI-side scanner, tabs and real-delay presentation. Do not attribute engine work to the UI author."),
+    ACCOUNT_SIGN_OUT("accountSignOut", "Account sign-out",
+        "Signs the user out of their account. If a VPN connection is active it is disconnected first, then the app returns to the sign-in screen. " +
+        "Saved settings, presets and custom configs are not deleted. Never ask for passwords or account details in chat."),
     SHARE_MODE("shareMode", "Share over Wi-Fi or mobile hotspot",
         "Home Wi-Fi requires both devices on the same router. Mobile hotspot covers the phone's hotspot or USB/Bluetooth tethering. " +
         "Select the mode matching the actual local link and use that link's displayed proxy address on the other device. It does not enable Android tethering itself."),
@@ -738,6 +741,7 @@ enum class AiTopic(
             CLEAN_IP_BALANCED -> "حالت پیش‌فرض: 300 نامزد، مهلت 5000 ms، دو پروب برای هر IP، 50 پروب هم‌زمان و 12 همسایه برای هر نتیجهٔ سالم. تعادل زمان و دقت؛ اگر نتیجه‌ای پیدا نشد عمیق را امتحان کنید. تأیید واقعی پروکسی همچنان الزامی است."
             CLEAN_IP_DEEP -> "جست‌وجوی گسترده‌تر و کندتر: 600 نامزد، مهلت 6000 ms، سه پروب برای هر IP، 40 پروب هم‌زمان و 16 همسایه برای هر نتیجهٔ سالم. مناسب شبکهٔ دشوار، بدون تضمین موفقیت و با تأیید نهایی پروکسی."
             CLEAN_IP_LIMIT -> "سقف دستی عددی بین 50 تا 5000 ms است؛ مقدار ذخیره‌شدهٔ پیش‌فرض 2000 ms. این سقف با مهلت پروب فرق دارد. حالت دستی اولین نامزد زیر سقف را پس از سه تأیید واقعی می‌پذیرد؛ خودکار، نامزدهای اندازه‌گیری‌شده را مرتب و سریع‌ترین مورد پایدار را تأیید می‌کند، بدون سقف دستی. دستیار فقط راهنمایی می‌کند و تنظیمات اسکن یا شروع آن را تغییر نمی‌دهد."
+            ACCOUNT_SIGN_OUT -> "خروج از حساب: اگر VPN وصل باشد ابتدا قطع می‌شود و برنامه به صفحهٔ ورود برمی‌گردد. تنظیمات، پریست‌ها و کانفیگ‌های ذخیره‌شده پاک نمی‌شوند. رمز عبور یا اطلاعات حساب را هرگز در گفتگو ننویسید."
             else -> detail
         }
     }

@@ -266,6 +266,7 @@ private fun HomeSurface(
                         Spacer(Modifier.height(14.dp))
                         SettingsGroup {
                             SettingsNavRow(
+                                aiTopic = AiTopic.ACCOUNT_SIGN_OUT,
                                 title = stringResource(R.string.account_sign_out),
                                 summary = stringResource(R.string.account_sign_out_summary),
                                 icon = Icons.AutoMirrored.Rounded.Logout,

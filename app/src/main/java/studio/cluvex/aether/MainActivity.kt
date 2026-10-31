@@ -167,6 +167,7 @@ class MainActivity : ComponentActivity() {
         pinLayoutDirection()
         enableEdgeToEdge()
         profileStore = ProfileStore(applicationContext)
+        authRepo = DemoAuthRepository(applicationContext)
         presetStore = PresetStore(applicationContext)
 
         // Load the persisted profile ONCE as the initial UI state; from then
@@ -315,6 +316,7 @@ class MainActivity : ComponentActivity() {
                     // a prompt that only exists on one screen is one they miss.
                     // Renders nothing unless a request is outstanding.
                     LoginCodeDialog()
+                    AuthGate(repo = authRepo) { account, signOut ->
                         HomeScreen(
                             state = state,
                             profile = profile ?: ConnectionProfile(),
@@ -335,6 +337,15 @@ class MainActivity : ComponentActivity() {
                             onImportPresets = { presetImportLauncher.launch(arrayOf("application/json", "text/plain", "application/octet-stream")) },
                             onExportPresets = { presetExportLauncher.launch("Aether-1.6.0-presets.json") },
                             presetBusy = presetsBusy || toggleInFlight.get(),
+                            account = account,
+                            onSignOut = {
+                                // Never leave a tunnel running for somebody who is
+                                // no longer signed in.
+                                if (state.isConnected || state.isBusy) {
+                                    AetherController.disconnect(this@MainActivity)
+                                }
+                                signOut()
+                            },
                         )
                         // Current-version notice; no introductory pager gate.
                         WhatsNewGate()
@@ -356,6 +367,7 @@ class MainActivity : ComponentActivity() {
                                     Text(getString(R.string.preset_cancel))
                                 } })
                         }
+                    }
                 }
             }
         }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Aether</string>
+    <string name="app_name">Fast VIP VPN</string>
     <string name="tagline">Freedom, in one tap</string>
 
     <string name="advanced">Advanced settings</string>
@@ -42,8 +42,8 @@
     <string name="reconnect_attempt">Attempt %1$d of %2$d</string>
 
     <string name="notif_channel">VPN status</string>
-    <string name="notif_channel_desc">Shows the Aether connection status</string>
-    <string name="notif_title">Aether</string>
+    <string name="notif_channel_desc">Shows the Fast VIP VPN connection status</string>
+    <string name="notif_title">Fast VIP VPN</string>
     <!--
       1.3.1, issue #20: the notification's action BUTTON used to be labelled with
       state_disconnecting ("Disconnecting…"), so the ongoing notification read
@@ -96,7 +96,7 @@
     <string name="advanced_open">Open advanced settings</string>
 
     <!-- Quick Settings tile -->
-    <string name="qs_tile_label">Aether</string>
+    <string name="qs_tile_label">Fast VIP VPN</string>
 
     <!-- Share VPN panel -->
     <string name="share_title">Share VPN</string>
@@ -237,7 +237,7 @@
     <string name="dns_hint">1.1.1.1, 1.0.0.1</string>
     <string name="dns_help">Leave empty for the engine default (1.1.1.1, 1.0.0.1). Invalid entries are ignored.</string>
     <!-- Feature merge: home-screen widget, onboarding, ping, crash report -->
-    <string name="widget_desc">Connect or disconnect Aether with one tap</string>
+    <string name="widget_desc">Connect or disconnect Fast VIP VPN with one tap</string>
     <string name="widget_toggle_desc">Toggle connection</string>
     <string name="ping_label">Ping</string>
     <string name="ping_measuring">Measuring…</string>
@@ -246,13 +246,13 @@
     <string name="onboarding_skip">Skip</string>
     <string name="onboarding_next">Next</string>
     <string name="onboarding_start">Get started</string>
-    <string name="onboarding_title_1">Welcome to Aether</string>
+    <string name="onboarding_title_1">Welcome to Fast VIP VPN</string>
     <string name="onboarding_body_1">A fast, secure tunnel that beats censorship. One tap connects you through MASQUE, WireGuard or WARP×2.</string>
     <string name="onboarding_title_2">Smart protocol selection</string>
     <string name="onboarding_body_2">Smart mode analyzes your network and picks the protocol that actually works, with anti-DPI obfuscation when needed.</string>
     <string name="onboarding_title_3">Private by design</string>
     <string name="onboarding_body_3">No logs, no trackers. Android will ask for VPN permission on your first connect; that is the system keeping you in control.</string>
-    <string name="crash_title">Aether stopped unexpectedly</string>
+    <string name="crash_title">Fast VIP VPN stopped unexpectedly</string>
     <string name="crash_subtitle">The details below were saved by the crash handler. You can copy them into a bug report.</string>
     <string name="crash_copy">Copy details</string>
     <string name="crash_copied">Copied</string>
@@ -368,7 +368,7 @@
          sentence into a right-to-left screen, which is how a localised app
          rots one string at a time.
          ================================================================= -->
-    <string name="ai_title">Aether AI</string>
+    <string name="ai_title">Fast VIP AI</string>
     <string name="ai_subtitle">Gemini inside the app: explanations, tuning and chat</string>
     <string name="ai_badge">AI</string>
     <string name="cat_ai">Assistant</string>
@@ -420,13 +420,13 @@
     <string name="ai_chat_open">Chat with Gemini</string>
     <string name="ai_chat_subtitle">Ask anything, or say what you want changed</string>
     <string name="ai_chat_model">Model: %1$s</string>
-    <string name="ai_chat_empty_title">Hi, I am Aether AI</string>
+    <string name="ai_chat_empty_title">Hi, I am Fast VIP AI</string>
     <string name="ai_chat_empty_body">I can explain any setting in this app, read this session\'s log and propose tuning, or just answer a question.</string>
     <string name="ai_chat_suggest_1">Why is my connection slow right now?</string>
     <string name="ai_chat_suggest_2">Which protocol should I use on mobile data?</string>
     <string name="ai_chat_suggest_3">Explain MTU and pick the best one for me</string>
     <string name="ai_chat_suggest_4">Make the tunnel harder to detect</string>
-    <string name="ai_chat_input_hint">Ask Aether AI…</string>
+    <string name="ai_chat_input_hint">Ask Fast VIP AI…</string>
     <string name="ai_chat_send">Send</string>
     <string name="ai_chat_stop">Stop</string>
     <string name="ai_chat_clear">Clear the conversation</string>
@@ -463,7 +463,7 @@
     <!-- gate -->
     <string name="ai_gate_no_key">Add your Gemini API key to use the AI features.</string>
     <string name="ai_gate_no_model">No model selected yet. Run the API test and one will be picked for you.</string>
-    <string name="ai_gate_disconnected">The AI needs the tunnel. Connect first: Google\'s AI endpoints are not reachable directly, and Aether\'s own traffic deliberately bypasses the tunnel it builds.</string>
+    <string name="ai_gate_disconnected">The AI needs the tunnel. Connect first: Google\'s AI endpoints are not reachable directly, and the app\'s own traffic deliberately bypasses the tunnel it builds.</string>
     <string name="ai_gate_wrong_mode">Switch the network backend to Aether → Psiphon. Google\'s AI endpoints refuse plain Aether/WARP exit addresses, which is why the AI only runs in the chained mode.</string>
     <string name="ai_gate_fix_key">Open AI settings</string>
     <string name="ai_gate_fix_mode">Open connection settings</string>
@@ -598,7 +598,7 @@
 
     <!-- Battery optimisation hint (1.3.1, issue #5) -->
     <string name="battery_title">Allow background running</string>
-    <string name="battery_desc">Android is still allowed to suspend Aether. That is what drops the tunnel when the screen goes off — it still says connected but nothing loads. Tap to exempt it.</string>
+    <string name="battery_desc">Android is still allowed to suspend Fast VIP VPN. That is what drops the tunnel when the screen goes off — it still says connected but nothing loads. Tap to exempt it.</string>
 
     <!-- Custom ECHConfigList (1.3.1, issue #44) -->
     <string name="ech_config_label">ECHConfigList (base64, optional)</string>
@@ -674,7 +674,7 @@
     <string name="share_ip_label">Phone IP address</string>
     <string name="share_pac_label">Automatic proxy (PAC) URL — easiest, fail‑closed</string>
     <string name="share_copy_all">Copy all details</string>
-    <string name="share_copy_all_label">Aether share details</string>
+    <string name="share_copy_all_label">Fast VIP VPN share details</string>
     <string name="share_copied_all">All details copied</string>
     <string name="share_steps_title">How to connect</string>
     <string name="share_step_home_1">Make sure the other device is on the same Wi‑Fi as this phone.</string>
@@ -1028,7 +1028,7 @@
 
     <!-- Sign-in + account header -->
     <string name="auth_title">Sign in</string>
-    <string name="auth_subtitle">Sign in to continue to Aether</string>
+    <string name="auth_subtitle">Sign in to continue to Fast VIP VPN</string>
     <string name="auth_username">Username or email</string>
     <string name="auth_password">Password</string>
     <string name="auth_sign_in">Sign in</string>

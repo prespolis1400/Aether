@@ -335,7 +335,7 @@ class MainActivity : ComponentActivity() {
                             onSelectPreset = ::applyPreset, onSavePresetAs = ::savePresetAs,
                             onDeletePreset = ::deletePreset, onRenamePreset = ::renamePreset,
                             onImportPresets = { presetImportLauncher.launch(arrayOf("application/json", "text/plain", "application/octet-stream")) },
-                            onExportPresets = { presetExportLauncher.launch("Aether-1.6.0-presets.json") },
+                            onExportPresets = { presetExportLauncher.launch("FastVIP-presets.json") },
                             presetBusy = presetsBusy || toggleInFlight.get(),
                             account = account,
                             onSignOut = {

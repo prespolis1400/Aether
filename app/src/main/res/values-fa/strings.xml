@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">اِتِر</string>
+    <string name="app_name">Fast VIP VPN</string>
     <string name="tagline">آزادی، در یک لمس</string>
 
     <string name="advanced">تنظیمات پیشرفته</string>
@@ -42,8 +42,8 @@
     <string name="reconnect_attempt">تلاش %1$d از %2$d</string>
 
     <string name="notif_channel">وضعیت ⁨VPN⁩</string>
-    <string name="notif_channel_desc">وضعیت اتصال اِتِر را نشان می‌دهد</string>
-    <string name="notif_title">اِتِر</string>
+    <string name="notif_channel_desc">وضعیت اتصال ⁨Fast VIP VPN⁩ را نشان می‌دهد</string>
+    <string name="notif_title">Fast VIP VPN</string>
     <string name="notif_action_disconnect">قطع اتصال</string>
 
     <string name="err_engine_timeout">هسته نتوانست پراکسی محلی را به‌موقع باز کند.</string>
@@ -90,7 +90,7 @@
     <string name="advanced_open">باز کردن تنظیمات پیشرفته</string>
 
     <!-- Quick Settings tile -->
-    <string name="qs_tile_label">اِتِر</string>
+    <string name="qs_tile_label">Fast VIP VPN</string>
 
     <!-- Share VPN panel -->
     <string name="share_title">اشتراک‌گذاری ⁨VPN⁩</string>
@@ -230,7 +230,7 @@
     <string name="dns_hint">1.1.1.1, 1.0.0.1</string>
     <string name="dns_help">برای مقدار پیش‌فرض هسته (1.1.1.1, 1.0.0.1) خالی بگذارید. ورودی‌های نامعتبر نادیده گرفته می‌شوند.</string>
     <!-- Feature merge: widget, onboarding, ping, crash report -->
-    <string name="widget_desc">اتصال یا قطع ⁨Aether⁩ با یک لمس</string>
+    <string name="widget_desc">اتصال یا قطع ⁨Fast VIP VPN⁩ با یک لمس</string>
     <string name="widget_toggle_desc">تغییر وضعیت اتصال</string>
     <string name="ping_label">پینگ</string>
     <string name="ping_measuring">در حال اندازه‌گیری…</string>
@@ -239,13 +239,13 @@
     <string name="onboarding_skip">رد کردن</string>
     <string name="onboarding_next">بعدی</string>
     <string name="onboarding_start">شروع</string>
-    <string name="onboarding_title_1">به ⁨Aether⁩ خوش آمدید</string>
+    <string name="onboarding_title_1">به ⁨Fast VIP VPN⁩ خوش آمدید</string>
     <string name="onboarding_body_1">تانل سریع و امن برای عبور از سانسور. با یک لمس از طریق ⁨MASQUE⁩، ⁨WireGuard⁩ یا وارپ×۲ متصل شوید.</string>
     <string name="onboarding_title_2">انتخاب هوشمند پروتکل</string>
     <string name="onboarding_body_2">حالت هوشمند شبکه شما را بررسی می‌کند و پروتکلی را انتخاب می‌کند که واقعاً کار می‌کند، در صورت نیاز با مبهم‌سازی ضد ⁨DPI⁩.</string>
     <string name="onboarding_title_3">حریم خصوصی از همان ابتدا</string>
     <string name="onboarding_body_3">بدون حساب کاربری، بدون لاگ، بدون ردیاب. اندروید در اولین اتصال اجازه ⁨VPN⁩ می‌خواهد؛ این سیستم است که کنترل را به شما می‌دهد.</string>
-    <string name="crash_title">‏⁨Aether⁩ به‌طور غیرمنتظره متوقف شد</string>
+    <string name="crash_title">‏⁨Fast VIP VPN⁩ به‌طور غیرمنتظره متوقف شد</string>
     <string name="crash_subtitle">جزئیات زیر توسط کنترل‌کننده خرابی ذخیره شده است. می‌توانید آن را در گزارش خطا کپی کنید.</string>
     <string name="crash_copy">کپی جزئیات</string>
     <string name="crash_copied">کپی شد</string>
@@ -357,7 +357,7 @@
          ‏۱.۲.۹ - قابلیت‌های هوش مصنوعی Gemini.
          هر کلید این بخش باید در values/strings.xml هم وجود داشته باشد.
          ================================================================= -->
-    <string name="ai_title">هوش مصنوعی اتر</string>
+    <string name="ai_title">هوش مصنوعی Fast VIP</string>
     <string name="ai_subtitle">‏⁨Gemini⁩ داخل برنامه: توضیح، بهینه‌سازی و چت</string>
     <string name="ai_badge">⁨AI⁩</string>
     <string name="cat_ai">دستیار</string>
@@ -409,13 +409,13 @@
     <string name="ai_chat_open">گفت‌وگو با جمینای</string>
     <string name="ai_chat_subtitle">هر چیزی بپرسید، یا بگویید چه چیزی عوض شود</string>
     <string name="ai_chat_model">مدل: %1$s</string>
-    <string name="ai_chat_empty_title">سلام، من هوش مصنوعی اتر هستم</string>
+    <string name="ai_chat_empty_title">سلام، من هوش مصنوعی ⁨Fast VIP⁩ هستم</string>
     <string name="ai_chat_empty_body">می‌توانم هر تنظیمی در این برنامه را توضیح بدهم، لاگ همین نشست را بخوانم و تنظیمات پیشنهاد کنم، یا فقط به سؤالتان جواب بدهم.</string>
     <string name="ai_chat_suggest_1">چرا اتصالم الان کند است؟</string>
     <string name="ai_chat_suggest_2">روی دیتای همراه چه پروتکلی بهتر است؟</string>
     <string name="ai_chat_suggest_3">‏⁨MTU⁩ را توضیح بده و بهترینش را انتخاب کن</string>
     <string name="ai_chat_suggest_4">تونل را سخت‌تر قابل تشخیص کن</string>
-    <string name="ai_chat_input_hint">از هوش مصنوعی اتر بپرسید…</string>
+    <string name="ai_chat_input_hint">از هوش مصنوعی ⁨Fast VIP⁩ بپرسید…</string>
     <string name="ai_chat_send">ارسال</string>
     <string name="ai_chat_stop">توقف</string>
     <string name="ai_chat_clear">پاک کردن گفت‌وگو</string>
@@ -452,7 +452,7 @@
     <!-- شرط‌های استفاده از هوش مصنوعی -->
     <string name="ai_gate_no_key">برای استفاده از قابلیت‌های هوش مصنوعی، کلید ⁨API⁩ جمینای خود را وارد کنید.</string>
     <string name="ai_gate_no_model">هنوز مدلی انتخاب نشده است. تست ⁨API⁩ را بزنید تا یکی برایتان انتخاب شود.</string>
-    <string name="ai_gate_disconnected">هوش مصنوعی به تونل نیاز دارد. اول وصل شوید: سرویس‌های هوش مصنوعی گوگل مستقیم در دسترس نیستند و ترافیک خودِ اتر عمداً از تونلی که می‌سازد رد نمی‌شود.</string>
+    <string name="ai_gate_disconnected">هوش مصنوعی به تونل نیاز دارد. اول وصل شوید: سرویس‌های هوش مصنوعی گوگل مستقیم در دسترس نیستند و ترافیک خودِ برنامه عمداً از تونلی که می‌سازد رد نمی‌شود.</string>
     <string name="ai_gate_wrong_mode">حالت شبکه را روی ⁨Aether → Psiphon⁩ بگذارید. سرویس‌های هوش مصنوعی گوگل آدرس‌های خروجی اتر/⁨WARP⁩ را نمی‌پذیرند؛ به همین دلیل هوش مصنوعی فقط در حالت ترکیبی کار می‌کند.</string>
     <string name="ai_gate_fix_key">رفتن به تنظیمات هوش مصنوعی</string>
     <string name="ai_gate_fix_mode">رفتن به تنظیمات اتصال</string>
@@ -579,7 +579,7 @@
 
     <!-- راهنمای بهینه‌سازی باتری -->
     <string name="battery_title">اجازهٔ اجرا در پس‌زمینه</string>
-    <string name="battery_desc">اندروید هنوز اجازه دارد اتر را متوقف کند. همین باعث می‌شود با خاموش شدن صفحه تونل بیفتد — می‌نویسد وصل است ولی چیزی باز نمی‌شود. برای معاف کردنش بزنید.</string>
+    <string name="battery_desc">اندروید هنوز اجازه دارد ⁨Fast VIP VPN⁩ را متوقف کند. همین باعث می‌شود با خاموش شدن صفحه تونل بیفتد — می‌نویسد وصل است ولی چیزی باز نمی‌شود. برای معاف کردنش بزنید.</string>
 
     <!-- ECHConfigList دلخواه -->
     <string name="ech_config_label">‏⁨ECHConfigList (base64⁩، اختیاری)</string>
@@ -644,7 +644,7 @@
     <string name="share_ip_label">آدرس ⁨IP⁩ گوشی</string>
     <string name="share_pac_label">نشانی پراکسی خودکار (⁨PAC⁩) — ساده‌ترین و ایمن‌ترین</string>
     <string name="share_copy_all">کپی همهٔ مشخصات</string>
-    <string name="share_copy_all_label">مشخصات اشتراک اتر</string>
+    <string name="share_copy_all_label">مشخصات اشتراک ⁨Fast VIP VPN⁩</string>
     <string name="share_copied_all">همهٔ مشخصات کپی شد</string>
     <string name="share_steps_title">روش اتصال</string>
     <string name="share_step_home_1">مطمئن شوید دستگاه دیگر به همان وای‌فای گوشی وصل است.</string>

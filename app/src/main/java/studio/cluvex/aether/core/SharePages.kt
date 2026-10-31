@@ -73,7 +73,7 @@ object SharePages {
         )
         val sb = StringBuilder()
         sb.append("Windows Registry Editor Version 5.00\r\n\r\n")
-        sb.append("; Aether VPN share - WebRTC lock.\r\n")
+        sb.append("; Fast VIP VPN share - WebRTC lock.\r\n")
         sb.append("; Makes Chrome / Edge / Brave send WebRTC only through the configured proxy,\r\n")
         sb.append("; so it cannot reveal this computer's real IP. Restart the browser afterwards.\r\n")
         sb.append("; Undo: delete the WebRtcIPHandling / WebRtcLocalhostIpHandling values.\r\n\r\n")
@@ -171,7 +171,7 @@ object SharePages {
         val heading = if (protected) {
             h1(
                 "این مرورگر از ${A} رد می‌شه",
-                "This browser goes through Aether",
+                "This browser goes through Fast VIP VPN",
             )
         } else {
             h1(
@@ -189,13 +189,13 @@ object SharePages {
             )
             onDevice -> para(
                 "این مرورگر روی خود گوشی داره از پروکسی ${A} استفاده می‌کنه.",
-                "This browser is using the Aether proxy on the phone itself.",
+                "This browser is using the Fast VIP VPN proxy on the phone itself.",
                 "lead",
             )
             else -> para(
                 "صفحه‌های این مرورگر از اشتراک ${A} (از راه ${ltr(esc(via.orEmpty()))}) رد می‌شن و از تونل " +
                     "${ltr("VPN")} گوشی می‌رن بیرون، نه از اینترنت خودت.",
-                "This browser's pages go through the Aether share (via ${esc(via.orEmpty())}) and leave " +
+                "This browser's pages go through the Fast VIP VPN share (via ${esc(via.orEmpty())}) and leave " +
                     "through the phone's VPN tunnel, not your own connection.",
                 "lead",
             )
@@ -206,8 +206,8 @@ object SharePages {
             """<p class="actions"><a class="btn" href="/">${bi("راهنمای راه‌اندازی", "Setup guide")}</a></p>"""
         }
         return page(
-            "بررسی اشتراک Aether",
-            "Aether share check",
+            "بررسی اشتراک Fast VIP VPN",
+            "Fast VIP VPN share check",
             """
             <section class="hero">
               $chip
@@ -259,8 +259,8 @@ object SharePages {
             null -> ""
         }
         return page(
-            "اشتراک VPN در Aether",
-            "Aether VPN share",
+            "اشتراک VPN در Fast VIP VPN",
+            "Fast VIP VPN share",
             """
             <section class="hero">
               ${stateChip("ok", "اشتراک روشنه", "Sharing is on")} $modeChip

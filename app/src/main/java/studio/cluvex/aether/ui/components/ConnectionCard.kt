@@ -1042,7 +1042,7 @@ private val CARD_SHAPE = RoundedCornerShape(CARD_RADIUS)
 private val SUB_SHAPE = RoundedCornerShape(18.dp)
 private val SUB_BORDER = Color(0x1F3EDBB0)
 private val DIVIDER = Color(0x1FFFFFFF)
-private val IDLE_ACCENT = Color(0xFF4C8DFF)
+private val IDLE_ACCENT = Color(0xFFE53935)
 private val ERROR_ACCENT = Color(0xFFFF5C7A)
 private const val LATENCY_REFRESH_MS = 4_000L
 

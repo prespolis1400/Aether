@@ -195,19 +195,20 @@ fun AetherMark(modifier: Modifier = Modifier, animated: Boolean = true) {
  * `M54,20 L82,86 L66,86 L54,54 L42,86 L26,86 Z`
  */
 private val MARK_OUTLINE = floatArrayOf(
-    54f, 20f,
-    82f, 86f,
-    66f, 86f,
-    54f, 54f,
+    66f, 20f,
+    34f, 54f,
+    50f, 54f,
     42f, 86f,
-    26f, 86f,
+    78f, 44f,
+    60f, 44f,
+    72f, 20f,
 )
 
 /** Path 2, the counter under the apex: `M54,44 L64,70 L44,70 Z`. */
 private val MARK_COUNTER = floatArrayOf(
-    54f, 44f,
-    64f, 70f,
-    44f, 70f,
+    60f, 29f,
+    65f, 29f,
+    62.5f, 37f,
 )
 
 // The glyph's bounding box inside that viewport. Hard-coded rather than computed

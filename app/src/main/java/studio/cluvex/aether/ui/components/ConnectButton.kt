@@ -82,8 +82,8 @@ fun ConnectButton(
     val connected = mode == ButtonMode.CONNECTED
     val busy = mode == ButtonMode.BUSY
     val accent = when (mode) {
-        ButtonMode.IDLE -> Color(0xFF4C8DFF)
-        ButtonMode.BUSY -> Color(0xFF4C8DFF)
+        ButtonMode.IDLE -> Color(0xFFE53935)
+        ButtonMode.BUSY -> Color(0xFFE53935)
         ButtonMode.CONNECTED -> Color(0xFF32E0C4)
         ButtonMode.ERROR -> Color(0xFFFF5C7A)
     }

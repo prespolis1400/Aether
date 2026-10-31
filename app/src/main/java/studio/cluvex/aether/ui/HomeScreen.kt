@@ -119,7 +119,7 @@ fun HomeScreen(
     studio.cluvex.aether.ui.components.HomeSettingsHost(route == null, modifier.fillMaxSize(), home = {
         HomeSurface(state, profile, connectedSince, ipInfo, ipLoading, onProfileChange, onToggleConnection,
             presets, activePresetId, onSelectPreset, onSavePresetAs, onDeletePreset, onRenamePreset, onImportPresets, onExportPresets,
-            presetBusy, onOpenSettings = { route = it })
+            presetBusy, onOpenSettings = { route = it }, account = account, onSignOut = onSignOut)
     }, settings = {
         route?.let { SettingsHost(it, state, profile, onProfileChange, { route = null }) }
     })
@@ -147,6 +147,8 @@ private fun HomeSurface(
     presetBusy: Boolean = false,
     onOpenSettings: (SettingsRoute) -> Unit,
     modifier: Modifier = Modifier,
+    account: Account? = null,
+    onSignOut: () -> Unit = {},
 ) {
     val mode = when {
         state.isConnected -> ButtonMode.CONNECTED

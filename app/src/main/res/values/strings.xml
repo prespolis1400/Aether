@@ -1025,4 +1025,18 @@
     <string name="no_ticket_desc">Leave out the session_ticket extension.</string>
     <string name="no_perm_title">Disable extension permutation</string>
     <string name="no_perm_desc">Keep one fixed order of the extensions instead of Chrome\'s per-handshake shuffle.</string>
+
+    <!-- Sign-in + account header -->
+    <string name="auth_title">Sign in</string>
+    <string name="auth_subtitle">Sign in to continue to Aether</string>
+    <string name="auth_username">Username or email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_sign_in">Sign in</string>
+    <string name="auth_error_invalid_input">Enter your username and a password of at least 4 characters.</string>
+    <string name="auth_error_wrong">Wrong username or password.</string>
+    <string name="auth_error_network">Could not reach the server. Check your connection and try again.</string>
+    <string name="account_plan">Plan: %1$s</string>
+    <string name="account_plan_expiry">Plan: %1$s · expires %2$s</string>
+    <string name="account_sign_out">Sign out</string>
+    <string name="account_sign_out_summary">Disconnects the VPN and returns to the sign-in screen</string>
 </resources>

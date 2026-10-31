@@ -995,4 +995,18 @@
     <string name="no_ticket_desc">افزونهٔ ⁨session_ticket⁩ حذف می‌شود.</string>
     <string name="no_perm_title">غیرفعال‌کردن جابه‌جایی افزونه‌ها</string>
     <string name="no_perm_desc">به‌جای جابه‌جایی تصادفی ⁨Chrome⁩ در هر دست‌دهی، ترتیب افزونه‌ها ثابت می‌ماند.</string>
+
+    <!-- Sign-in + account header -->
+    <string name="auth_title">ورود به حساب</string>
+    <string name="auth_subtitle">برای ادامه وارد حساب کاربری خود شوید</string>
+    <string name="auth_username">نام کاربری یا ایمیل</string>
+    <string name="auth_password">رمز عبور</string>
+    <string name="auth_sign_in">ورود</string>
+    <string name="auth_error_invalid_input">نام کاربری و رمز عبور (حداقل ۴ کاراکتر) را وارد کنید.</string>
+    <string name="auth_error_wrong">نام کاربری یا رمز عبور نادرست است.</string>
+    <string name="auth_error_network">اتصال به سرور برقرار نشد. اینترنت خود را بررسی کنید و دوباره تلاش کنید.</string>
+    <string name="account_plan">پلن: %1$s</string>
+    <string name="account_plan_expiry">پلن: %1$s · انقضا: %2$s</string>
+    <string name="account_sign_out">خروج از حساب</string>
+    <string name="account_sign_out_summary">اتصال VPN قطع می‌شود و به صفحهٔ ورود برمی‌گردید</string>
 </resources>
